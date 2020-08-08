@@ -10,5 +10,12 @@ HR system
 ```java
 Request: POST /employee
 Body:
-{
+{	
+    "firstName": "ahmad",
+    "lastName": "abuarab",
+    "status": 1,
+    "salary": 5000.3,
+    "cvPath": "link here",
+    "departmentId": 1
 }
+```
