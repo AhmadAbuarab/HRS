@@ -114,4 +114,69 @@ Response:
 }
 ```
 
+*  Update Employee
+```java
+Request: PUT /employee/1
+Request Body:
+{	
+    "firstName": "updated",
+    "lastName": "abuarab",
+    "status": 1,
+    "salary": 5000.3,
+    "cvPath": "link here",
+    "departmentId": 1
+}
+Response Body:
+{	
+    "firstName": "updated",
+    "lastName": "abuarab",
+    "status": 1,
+    "salary": 5000.3,
+    "cvPath": "link here",
+    "departmentId": 1
+}
+```
+
+*  Delete Employee
+```java
+Request: DELETE /employee/1
+
+```
+
+*  Get Employee by status, active/inactive
+```java
+Request: GET /employee/status/0
+Response:
+{	
+    "id": 1
+    "firstName": "Muna",
+    "lastName": "Ahmad",
+    "status": 0,
+    "salary": 8000.3,
+    "cvPath": "link here",
+    "departmentId": 3
+}
+```
+
+*  Get Employee by department
+```java
+Request: GET /employee/department/4
+Response:
+{	
+    "id": 1
+    "firstName": "Mohammad",
+    "lastName": "Ali",
+    "status": 1,
+    "salary": 1000.3,
+    "cvPath": "link here",
+    "departmentId": 4
+}
+```
+
+*  Raise Employee salary by ratio
+```java
+Request: PUT /employee/raise
+id: 1
+ratio : 2.5
+```
 
