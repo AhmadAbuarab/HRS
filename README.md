@@ -1,8 +1,7 @@
 # HRS
 HR system
 
-### Usage
-**  Authintication
+### Authintication
 * User : admin
 * Password : password
 
