@@ -6,7 +6,8 @@ candidates and download their resumes.
 
 ### Authintication
 
-To use this application you can select Authorization tab in postman -> authorization type : Basic Auth 
+To use this application you can select Authorization tab in postman 
+-> authorization type : Basic Auth 
 * User : admin
 * Password : password
 
