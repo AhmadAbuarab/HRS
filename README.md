@@ -2,9 +2,9 @@
 HR system
 
 ### Usage
-*  Authintication
-user : admin
-password : password
+**  Authintication
+* User : admin
+* Password : password
 
 ### Usage
 *  Add a new Employee
