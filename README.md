@@ -5,6 +5,19 @@ HR system
 * User : admin
 * Password : password
 
+### Employee table
+```mysql
+CREATE TABLE `hrs`.`employee` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `first_name` VARCHAR(45) NULL,
+  `last_name` VARCHAR(45) NULL,
+  `salary` FLOAT NULL,
+  `department_id` INT NULL,
+  `cv_path` VARCHAR(255) NULL,
+  `created_date` DATETIME NULL,
+  `status` INT NULL,
+  PRIMARY KEY (`id`));
+```
 ### Usage
 *  Add a new Employee
 ```java
