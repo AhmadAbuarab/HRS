@@ -1,12 +1,10 @@
 # HRS
 * HR system
-* API for a small HR system, where job applicants can register as
-potential candidates and upload their resumes, and HR managers can log in and see the list of
-candidates and download their resumes.
+* Simple API for a small HR system.
 
 ### Authintication
 
-To use this application you can select Authorization tab in postman 
+To use this application you can select -> Authorization tab in postman 
 -> authorization type : Basic Auth 
 * User : admin
 * Password : password
