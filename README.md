@@ -1,5 +1,4 @@
 # HRS
-* HR system
 * Simple API for a small HR system.
 
 ### Authintication
