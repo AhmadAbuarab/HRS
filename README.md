@@ -138,7 +138,8 @@ Request Body:
     "departmentId": 1
 }
 Response Body:
-{	
+{	  
+    "id" : 1
     "firstName": "updated",
     "lastName": "abuarab",
     "status": 1,
