@@ -10,7 +10,7 @@ To use this application you can select -> Authorization tab in postman
 
 ### Employee table
 ```mysql
-CREATE TABLE `hrs`.`employee` (
+CREATE TABLE `hrs`.`employee`(
   `id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(45) NULL,
   `last_name` VARCHAR(45) NULL,
